@@ -1,4 +1,4 @@
-def min():
+def main():
     x = int(input("Number: "))
     check(x)
 
@@ -8,3 +8,4 @@ def check(number):
     else:
         print("even number")
     
+main()
